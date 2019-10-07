@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="Save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="title_detailActivityTitle">Details</string>
+    <string name="hint_name">name</string>
+    <string name="hint_expDate">2019-10-06</string>
+    <string name="hint_status">Completed</string>
+    <string name="hint_desc">type description here</string>
+    <string name="description">Description:</string>
+    <string name="_status">Status:</string>
+    <string name="expire_date">Expire Date:</string>
+    <string name="action_delete">delete</string>
+    <string name="filter">filter</string>
+    <string name="done">Done</string>
+    <string name="refresh">refresh</string>
+    <string name="one_week">1 week</string>
+    <string name="one_month">1 Month</string>
+    <string name="six_month">6 Month</string>
+    <string name="todo">Todo</string>
+    <string name="completed">Completed</string>
+    <string name="name">Name:</string>
+</resources>

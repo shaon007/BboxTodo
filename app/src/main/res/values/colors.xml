@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorListItem">#F7F2CD</color>
+    <color name="colorTextDesc">#383834</color>
+    <color name="colorEditText">#31A6F3</color>
+    <color name="recycler_view_item_swipe_right_background">#FF0000</color>
+</resources>
