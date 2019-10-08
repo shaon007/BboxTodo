@@ -26,6 +26,7 @@ import bbox.com.todoapp.viewmodels.ViewModelProviderFactory;
 import com.google.android.material.snackbar.Snackbar;
 import dagger.android.support.DaggerAppCompatActivity;
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator;
+import okhttp3.OkHttpClient;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -35,6 +36,7 @@ import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends DaggerAppCompatActivity {
 
@@ -61,6 +63,8 @@ public class MainActivity extends DaggerAppCompatActivity {
         initRecyclerView();
 
         mainViewModel = ViewModelProviders.of(this, providerFactory).get(MainViewModel.class);
+
+
 
         observeTodos();
 
